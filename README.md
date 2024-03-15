@@ -1,5 +1,5 @@
 # django-fake-million
-A `django` **REST API** that contains data generated with the `faker` library.
+A [Django REST Framework](https://www.django-rest-framework.org/) **REST API** that contains data generated with the [faker](https://faker.readthedocs.io/en/master/) library.
 
 The API contains a **login endpoint** that checks if the user data in a **POST request** exists in the database and retrieves the users **token** if it does.
 
