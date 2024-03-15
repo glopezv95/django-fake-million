@@ -1,13 +1,8 @@
-from django.urls import path, include
-from rest_framework import routers
+from django.urls import path
 
-from .views import ClientModelViewSet, count, login
-
-router = routers.DefaultRouter()
-router.register('apiviewset', ClientModelViewSet)
+from . import views
 
 urlpatterns = [
-    path('', include(router.urls)),
-    path('api/count/', count, name = 'count'),
-    path('api/login/', login, name = 'login'),
+    path('api/login/', views.login, name = 'login'),
+    path('api/count/', views.count, name = 'count'),
 ]
