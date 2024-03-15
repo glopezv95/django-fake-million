@@ -1,5 +1,5 @@
 # django-fake-million
-A <a href="https://www.django-rest-framework.org/" target="_blank">Django REST Framework</a> **REST API** that contains data generated with the <a href="https://faker.readthedocs.io/en/master/" target="_blank">faker</a> library.
+A [Django REST Framework](https://www.django-rest-framework.org/) **REST API** that contains data generated with the [faker](https://faker.readthedocs.io/en/master/) library.
 
 The API contains a **login endpoint** that checks if the user data in a **POST request** exists in the database and retrieves the users **token** if it does.
 
